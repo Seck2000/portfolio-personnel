@@ -1,0 +1,96 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+border-bottom: 2px solid black;
+width: 100%;
+background-color: rgb(243, 243, 233);
+margin-bottom: 50px;
+padding: 20px ;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    font-size: medium;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+/*retirer les decorations et la couleur des liens*/
+a{
+    text-decoration: none;
+    color: black;
+}
+/*mettre une marge a gauche de l'image*/
+.navbar img{
+    margin-left: 10px;
+}
+
+/*separation image et liens,
+donner une taille de fond*/
+.navbar{
+display: flex;
+justify-content: space-between;
+font-size: 16px;
+}
+
+/*placer les elemments au centre et retirer le style des listes*/
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+/*espace entre les differents liens*/
+.navbar ul li a {
+    padding: 16px;
+    margin: 0 30px;
+}
+
+/*element active*/
+.navbar a:active{
+    color: blue;
+}
+
+footer{
+flex-shrink: 0;
+border-top: 2px solid black;
+width: 100%;
+background-color:rgb(243, 243, 233);
+margin-top: 50px;
+height: 300px;
+padding: 20px;
+}
+
+.container-footer{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+width: 1200 px;
+margin: 0 auto;
+padding: 50px 0 50px;
+}
+
+.formulaire h2{
+display: flex;
+justify-content: center;
+}
+
+.reseaux-sociaux{
+display: flex;
+justify-content: center ;
+padding: 10px 0 ;
+font-size: x-large;
+}
+
+/*donner la forme d'un cercle a mes boutons(border-radius)
+mettre de l'espace entre les boutons(margin-right)*/
+.reseaux-sociaux button{
+    border-radius: 26px;
+    margin-right: 10px;
+}
+
+

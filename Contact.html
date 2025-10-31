@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head lang="fr">
+        <meta charset="utf-8">
+        <title> Contact </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+.row{
+border-bottom: 2px solid black;
+padding-bottom: 15px;
+}
+
+.col-sm-6 iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.col-sm-6{
+margin-top: 10px ;
+}
+
+.row-lg{
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input{
+    margin: 5px;
+}
+
+textarea{
+    vertical-align: text-top;
+}
+
+        </style>
+    </head>
+    <body>
+    
+        <header>
+            <div class="container-header"></div>
+                <nav class="navbar">
+                     <img src="Images/UQAR.webp" alt="logo UQAR" height="50" width="100">
+                 <ul>
+                     <li><a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a></li>
+                     <li><a href="Projet.html"><i class="fa-solid fa-diagram-project"></i> Projet</a></li>
+                     <li><a href="Competences.html"><i class="fa-solid fa-gear"></i> Competences</a></li>
+                     <li><a href="Contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+    <div class="container">
+
+        <div class="row ">
+              <div class="col-sm-6" style="border: 2px solid black;">
+                 <i class="fa-solid fa-location-dot"> Adresse</i><br>
+                     <a href="https://maps.app.goo.gl/5CQYaFQBxtuVMLoJA">130 rue du Marion, Lévis QC</a><br>
+                 <br><i class="fa-solid fa-phone">Telephone</i><br>
+                     <a href="tel:+15814468004">(581) 446-8004</a><br>
+                 <br><i class="fa-solid fa-envelope"> E-mail</i><br>
+                     <a href="mailto:estherbongui@gmail.com">estherbongui@gmail.com</a>
+              </div>
+
+              <div class="col-sm-6">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2730.2223941411303!2d-71.14537122410114!3d46.81962154199073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb8957b8e58cc49%3A0xbc1419ee9c39fecd!2s130%20Rue%20du%20Marion%2C%20L%C3%A9vis%2C%20QC%20G6V%207L8!5e0!3m2!1sfr!2sca!4v1698090069160!5m2!1sfr!2sca" width="400" height="300" style="border: 1px black;overflow: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div> 
+        </div> 
+
+        <div class="row-lg">
+          <form action="" method="post">
+             <label for="nom">Nom: </label>
+                 <input type="text" name="lastname" placeholder="Nom" id="nom" size="20" maxlength="30"><br>
+             <label for="prenom">Prenom: </label>
+                 <input type="text" name="firstname" placeholder="Prenom" id="prenom" size="20" maxlength="30"><br>
+             <label for="fonction">Fonction: </label>
+                 <select name="fonction" placeholder="Fonction">
+                     <option value="etudiant">Etudiant</option>
+                     <option value="concepteur web">Concepteur Web</option>
+                     <option value="developpeur web">Developpeur Web</option>
+                     <option value="programmeur">Programmeur</option>
+                 </select><br>
+             <label for="email">Email: </label>
+                 <input type="email" name="" placeholder="Email"><br>
+             <label for="genre">Genre: </label>
+                  <input type="radio" name="genre" value="F"> Femme
+                  <input type="radio" name="genre" value="G"> Homme<br>
+             <label for="message">Message: </label>
+                  <textarea name="comment" placeholder="Message" id="message" cols="30" rows="5"></textarea><br>
+
+                  <br><input type="submit" value="Envoyer">
+          </form>
+        </div>
+    </div> 
+
+    <footer>
+        <div class="container-footer">
+            <form action="" method="post">
+               <div class="formulaire">
+                 <h2><i class="fa-solid fa-newspaper"></i>Newsletters</h2>
+    
+                 <i class="fa-solid fa-envelope"></i>
+                 <input type="email" name="" placeholder="Email">
+                 <input type="submit" value="S'abonner">
+               </div>
+    
+               <div class="reseaux-sociaux">
+                 <a href="https://www.bing.com/ck/a?!&&p=5927239868ea6d80JmltdHM9MTY5ODM2NDgwMCZpZ3VpZD0wOWNlZDg1YS00OGFkLTYwMWYtMTk4Ni1jYmQ1NDk5NjYxYWImaW5zaWQ9NTIwNA&ptn=3&hsh=3&fclid=09ced85a-48ad-601f-1986-cbd5499661ab&psq=facebook&u=a1aHR0cHM6Ly9mci1jYS5mYWNlYm9vay5jb20v&ntb=1">
+                     <button type="button" >
+                         <i class="fa-brands fa-facebook"></i>
+                     </button>
+                 </a>
+    
+                 <a href="https://www.bing.com/ck/a?!&&p=53d61915794ac174JmltdHM9MTY5ODM2NDgwMCZpZ3VpZD0wOWNlZDg1YS00OGFkLTYwMWYtMTk4Ni1jYmQ1NDk5NjYxYWImaW5zaWQ9NTIwOA&ptn=3&hsh=3&fclid=09ced85a-48ad-601f-1986-cbd5499661ab&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8&ntb=1">
+                     <button type="button" >
+                         <i class="fa-brands fa-twitter"></i>
+                     </button>
+                 </a>
+    
+                 <a href="https://www.bing.com/ck/a?!&&p=d8318fcf5e0f9035JmltdHM9MTY5ODM2NDgwMCZpZ3VpZD0wOWNlZDg1YS00OGFkLTYwMWYtMTk4Ni1jYmQ1NDk5NjYxYWImaW5zaWQ9NTIwMg&ptn=3&hsh=3&fclid=09ced85a-48ad-601f-1986-cbd5499661ab&psq=youtube&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2dsPWNhJmhsPWZy&ntb=1">
+                     <button type="button" >
+                         <i class="fa-brands fa-youtube"></i>
+                     </button>
+                 </a>
+               </div>
+            </form>
+        </div>
+    </footer>
+
+    </body>
+</html>
